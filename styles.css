@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  background-color: #05dfd7;
+}
+
+h1{
+  line-height: 4rem;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #eaeaea;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: #1b262c;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #ff4b5c;
+}
+
+.green {
+  background-color: #75daad;
+}
+
+.blue {
+  background-color: #00bcd4;
+}
+
+.yellow {
+  background-color: #f9d56e;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #eaeaea;
+}
+
+/* Footer Section */
+.container-fluid2{
+  padding: 7% 15%;
+}
+
+.colorP2{
+  color: #FEF2BF;
+}
+
+#footer .colorP2{
+  margin-top: 15rem;
+}
+
+@media (max-width : 1028px){
+  h1{
+    padding-bottom: 100px;
+    line-height: 4rem;
+  }
+
+  .container {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    border: 15px solid #eaeaea;
+    border-radius: 20%;
+  }
+  .container-fluid2{
+    padding: 7% 15%;
+  }
+  
+  #footer .colorP2{
+    margin-top: 27rem;
+    font-size: 1.5rem;
+  }
+}
